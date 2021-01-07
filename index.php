@@ -9,4 +9,9 @@ function add(int $a, int $b): ?int
 $a = 6;
 $b = 2;
 
-echo $a . " + " . $b . " = " . add($a, $b);
+echo "<p>" . $a . " + " . $b . " = " . add($a, $b) . "</p>";
+
+$c = 8;
+$d = 2;
+
+echo "<p>" . $c . " + " . $d . " = " . add($c, $d) . "</p>";
