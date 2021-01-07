@@ -2,6 +2,7 @@
 
 <?php
 require_once 'inc/multiply.inc.php';
+require_once 'inc/substract.inc.php';
 
 function add(int $a, int $b): ?int
 {
@@ -24,7 +25,8 @@ $f = 12;
 
 echo "<p>" . $c . " * " . $d . " = " . multiply($e, $f) . "</p>";
 
-$g = 6;
-$h = 8;
+// Substraction
+$g = 10;
+$h = 5;
 
-echo "<p>" . $g . " * " . $h . " = " . multiply($g, $h) . "</p>";
+echo "<p>" . $g . " - " . $h . " = " . substract($g, $h) . "</p>";
