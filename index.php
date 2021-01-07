@@ -6,7 +6,7 @@ function add(int $a, int $b): ?int
     return $a + $b;
 }
 
-$a = "abc";
+$a = 6;
 $b = 2;
 
 echo $a . " + " . $b . " = " . add($a, $b);
